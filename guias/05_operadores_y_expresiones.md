@@ -8,6 +8,8 @@ Aprender a hacer calculos y comparaciones en Python.
 
 Los operadores aritmeticos sirven para hacer cuentas.
 
+Se usan en situaciones muy cotidianas: calcular precios, descuentos, promedios, distancias, intereses, puntajes o totales de una compra.
+
 ```python
 suma = 10 + 5
 resta = 10 - 5
@@ -52,6 +54,8 @@ Salida:
 - `//` devuelve el resultado entero de la division.
 - `%` devuelve el resto.
 
+El resto es util para saber, por ejemplo, si un numero es par o impar, repartir elementos en grupos o detectar ciclos cada cierta cantidad de pasos.
+
 ## Potencia
 
 ```python
@@ -64,9 +68,13 @@ Salida:
 8
 ```
 
+La potencia aparece en calculos matematicos, fisica, intereses compuestos y algunos algoritmos. No siempre se usa al principio, pero conviene reconocerla.
+
 ## Operadores de comparacion
 
 Sirven para comparar valores. Devuelven `True` o `False`.
+
+Las comparaciones permiten que un programa evalua situaciones: si una persona tiene edad suficiente, si un stock esta agotado o si una nota alcanza para aprobar.
 
 ```python
 print(10 > 5)
@@ -97,6 +105,8 @@ Operadores comunes:
 
 `=` asigna un valor.
 
+Esta diferencia es una de las mas importantes al comenzar. Con `=` guardamos informacion; con `==` hacemos una pregunta.
+
 ```python
 edad = 20
 ```
@@ -110,6 +120,8 @@ print(edad == 20)
 ## Operadores logicos
 
 Sirven para combinar condiciones.
+
+En la vida real muchas decisiones dependen de mas de una condicion. Por ejemplo: permitir una compra si hay stock y el pago fue aprobado.
 
 ```python
 edad = 25
@@ -135,4 +147,3 @@ Debe pedir dos numeros y mostrar:
 - Multiplicacion.
 - Division.
 - Si el primer numero es mayor que el segundo.
-

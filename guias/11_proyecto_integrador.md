@@ -8,6 +8,8 @@ Practicar variables, listas, bucles, condicionales, funciones, archivos y errore
 
 Un gestor de tareas por consola.
 
+Este proyecto es simple, pero representa una idea real: muchas aplicaciones administran listas de elementos. Una app de tareas, un carrito de compras o un sistema de turnos usan conceptos parecidos.
+
 El programa permitira:
 
 - Ver tareas.
@@ -17,11 +19,15 @@ El programa permitira:
 
 ## Paso 1: crear la lista de tareas
 
+La lista sera la memoria temporal del programa. Mientras el programa este abierto, ahi se guardaran las tareas cargadas por el usuario.
+
 ```python
 tareas = []
 ```
 
 ## Paso 2: mostrar un menu
+
+Un menu permite que el usuario sepa que acciones puede realizar. Es una forma basica de interfaz, aunque todavia estemos trabajando en la terminal.
 
 ```python
 print("1. Ver tareas")
@@ -31,6 +37,8 @@ print("4. Salir")
 ```
 
 ## Paso 3: repetir el menu
+
+Como queremos que el usuario pueda hacer varias acciones seguidas, necesitamos repetir el menu. Sin un bucle, el programa terminaria despues de una sola opcion.
 
 ```python
 tareas = []
@@ -48,6 +56,8 @@ while True:
 ```
 
 ## Paso 4: agregar opciones
+
+Cada opcion del menu se resuelve con una condicion. Este patron aparece mucho: el usuario elige una accion y el programa decide que bloque ejecutar.
 
 ```python
 tareas = []
@@ -81,6 +91,8 @@ while True:
 
 En lugar de imprimir la lista completa, podemos mostrar cada tarea con un numero.
 
+Mostrar bien la informacion tambien es parte de programar. Un resultado correcto pero dificil de leer puede hacer que el programa sea incomodo de usar.
+
 ```python
 if opcion == "1":
     if len(tareas) == 0:
@@ -91,6 +103,8 @@ if opcion == "1":
 ```
 
 ## Version final
+
+En esta version se usan funciones para dividir el programa en partes mas claras. Cada funcion tiene una responsabilidad concreta: mostrar el menu, ver tareas, agregar tareas o guardar datos.
 
 ```python
 def mostrar_menu():
@@ -148,3 +162,4 @@ Mejora el proyecto agregando:
 - Una opcion para marcar tareas como completadas.
 - Carga automatica de tareas desde `tareas.txt` al iniciar el programa.
 
+Estos desafios acercan el proyecto a una aplicacion mas real: no solo guarda datos, tambien permite modificarlos y recuperar informacion al volver a abrir el programa.

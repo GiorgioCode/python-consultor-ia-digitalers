@@ -8,6 +8,8 @@ Aprender a organizar codigo en funciones reutilizables.
 
 Una funcion es un bloque de codigo con nombre. Sirve para evitar repetir instrucciones.
 
+Tambien sirve para ordenar el pensamiento. Cuando una tarea tiene nombre, el programa se vuelve mas facil de leer: `calcular_total()` comunica mejor la intencion que muchas lineas sueltas.
+
 ```python
 def saludar():
     print("Hola")
@@ -37,9 +39,13 @@ Hola
 Bienvenido
 ```
 
+En programas pequenos las funciones pueden parecer innecesarias, pero en programas mas grandes son fundamentales para separar responsabilidades.
+
 ## Parametros
 
 Un parametro permite enviar informacion a una funcion.
+
+Gracias a los parametros, una misma funcion puede servir para muchos casos. No necesitamos crear una funcion distinta para saludar a cada persona.
 
 ```python
 def saludar(nombre):
@@ -59,6 +65,8 @@ Hola, Luis
 ## Retornar valores
 
 `return` permite devolver un resultado.
+
+Esto permite combinar funciones entre si. Una funcion calcula algo, otra lo guarda, otra lo muestra y otra lo valida.
 
 ```python
 def sumar(a, b):
@@ -80,6 +88,8 @@ Salida:
 
 `return` devuelve un valor para usarlo en otra parte del programa.
 
+Una forma simple de pensarlo: `print` es para comunicar algo al usuario; `return` es para entregar un resultado al propio programa.
+
 Ejemplo:
 
 ```python
@@ -97,6 +107,8 @@ Salida:
 ```
 
 ## Funciones con decisiones
+
+Las funciones tambien pueden contener condicionales, bucles y cualquier otra estructura. Esto permite crear piezas de codigo pequenas, pero con comportamiento propio.
 
 ```python
 def es_mayor_de_edad(edad):
@@ -125,4 +137,3 @@ Debe tener funciones para:
 - Dividir dos numeros.
 
 Luego pide dos numeros al usuario y muestra los resultados usando esas funciones.
-

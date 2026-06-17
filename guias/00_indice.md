@@ -2,6 +2,8 @@
 
 Estas guias estan pensadas para personas que recien empiezan a programar. No hace falta saber otro lenguaje antes.
 
+La idea no es memorizar comandos, sino entender como piensa un programa: recibir datos, guardarlos, tomar decisiones, repetir tareas y producir un resultado. Esos mismos pasos aparecen en aplicaciones reales, desde una calculadora hasta una pagina web o un sistema de turnos.
+
 ## Orden sugerido
 
 1. [Introduccion y preparacion del entorno](01_introduccion_y_entorno.md)
@@ -24,10 +26,11 @@ Estas guias estan pensadas para personas que recien empiezan a programar. No hac
 - Resuelve los ejercicios sin mirar una solucion primero.
 - Si aparece un error, lee el mensaje: Python suele indicar la linea y el tipo de problema.
 
+No hace falta entender todo en la primera lectura. En programacion es normal volver varias veces sobre los mismos temas y comprenderlos mejor cuando aparecen en ejercicios reales.
+
 ## Requisitos
 
 - Una computadora.
 - Python instalado.
 - Un editor de codigo, por ejemplo Visual Studio Code.
 - Ganas de practicar. Programar se aprende escribiendo codigo, no solo leyendo.
-
