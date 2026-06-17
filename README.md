@@ -64,6 +64,59 @@ ejemplos/11_proyecto_integrador/gestor_tareas.py
 
 Estos archivos sirven para ejecutar, modificar y experimentar con el codigo visto en las guias.
 
+## Instalacion de Python
+
+Para trabajar con los ejemplos es necesario tener Python instalado.
+
+Pasos recomendados:
+
+1. Entrar al sitio oficial: [python.org/downloads](https://www.python.org/downloads/)
+2. Descargar la version recomendada para tu sistema operativo.
+3. Instalar Python.
+4. Si usas Windows, marcar la opcion `Add Python to PATH` durante la instalacion.
+5. Abrir una terminal y verificar la instalacion:
+
+```bash
+python --version
+```
+
+En algunos sistemas el comando puede ser:
+
+```bash
+python3 --version
+```
+
+Si aparece un numero de version, Python quedo instalado correctamente.
+
+## Recomendacion: Visual Studio Code
+
+Se recomienda usar **Visual Studio Code** como editor de codigo para seguir el material del curso.
+
+Visual Studio Code ayuda a:
+
+- Abrir carpetas completas de trabajo.
+- Escribir codigo con resaltado de sintaxis.
+- Detectar errores simples mientras se escribe.
+- Usar una terminal integrada.
+- Instalar extensiones utiles para Python.
+
+Pasos recomendados:
+
+1. Descargar Visual Studio Code desde [code.visualstudio.com](https://code.visualstudio.com/)
+2. Instalarlo en la computadora.
+3. Abrir este repositorio como carpeta.
+4. Instalar la extension oficial llamada `Python`.
+5. Abrir una terminal integrada desde Visual Studio Code.
+6. Ejecutar los ejemplos desde esa terminal.
+
+Para abrir la terminal integrada:
+
+```text
+Terminal > New Terminal
+```
+
+Usar Visual Studio Code no es obligatorio, pero facilita mucho el trabajo cuando se esta empezando.
+
 ## Como usar este material
 
 1. Abrir `guias/00_indice.md`.
@@ -87,4 +140,3 @@ python3 ejemplos/01_introduccion_y_entorno/hola.py
 ## Objetivo
 
 El objetivo del repositorio es acompanar el aprendizaje inicial de Python con material simple, ordenado y practico, reforzando los conceptos del Modulo 2 mediante ejemplos concretos.
-
