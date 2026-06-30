@@ -43,6 +43,11 @@ Temas incluidos:
 - Funciones.
 - Archivos y manejo de errores.
 - Proyecto integrador.
+- Profundizacion de conceptos: sets, `*args`, `**kwargs`, desempaquetado y comprensiones.
+- Programacion orientada a objetos basica.
+- Entornos virtuales y dependencias.
+- Agentes basicos con Groq.
+- Interfaces visuales con Tkinter.
 
 El archivo recomendado para comenzar es:
 
@@ -60,6 +65,10 @@ Cada subcarpeta corresponde a una guia y contiene los ejemplos practicos asociad
 ejemplos/07_bucles/for_range.py
 ejemplos/09_funciones/calculadora_funciones.py
 ejemplos/11_proyecto_integrador/gestor_tareas.py
+ejemplos/11b_profundizacion/inventario_profundizacion.py
+ejemplos/11c_poo_basica/gestor_tareas_poo.py
+ejemplos/13_agentes_con_groq/agente_tutor.py
+ejemplos/14_tkinter_interfaces/gestor_tareas_visual.py
 ```
 
 Estos archivos sirven para ejecutar, modificar y experimentar con el codigo visto en las guias.
@@ -124,6 +133,16 @@ Usar Visual Studio Code no es obligatorio, pero facilita mucho el trabajo cuando
 3. Ejecutar los ejemplos de la carpeta `ejemplos`.
 4. Modificar los valores del codigo para observar que cambia.
 5. Resolver los ejercicios propuestos en cada guia.
+
+Para la guia de agentes con Groq tambien se necesita instalar dependencias:
+
+```bash
+pip install -r requirements.txt
+```
+
+Se recomienda hacerlo dentro de un entorno virtual, como se explica en `guias/12_entornos_virtuales_y_dependencias.md`.
+
+Tambien hay que configurar la variable de entorno `GROQ_API_KEY`.
 
 Para ejecutar un ejemplo:
 

@@ -17,6 +17,11 @@ La idea no es memorizar comandos, sino entender como piensa un programa: recibir
 9. [Funciones](09_funciones.md)
 10. [Archivos y manejo de errores](10_archivos_y_errores.md)
 11. [Proyecto integrador](11_proyecto_integrador.md)
+11b. [Profundizacion de conceptos](11b_profundizacion.md)
+11c. [Programacion orientada a objetos basica](11c_poo_basica.md)
+12. [Entornos virtuales y dependencias](12_entornos_virtuales_y_dependencias.md)
+13. [Agentes basicos con Groq](13_agentes_con_groq.md)
+14. [Interfaces visuales con Tkinter](14_tkinter_interfaces.md)
 
 ## Como estudiar
 
